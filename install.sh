@@ -32,6 +32,8 @@ wget -P ~/.local/share/fonts https://github.com/ryanoasis/nerd-fonts/releases/do
   && rm JetBrainsMono.zip \
   && fc-cache -fv
 
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+. $HOME/.cargo/env
 cargo install protols
 
 # Install neovim
