@@ -36,7 +36,11 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 . $HOME/.cargo/env
 cargo install protols
 
-curl https://pyenv.run | bash
+if [ -d "$PYENV_ROOT" ]; then
+  echo "pyenv already installed"
+else
+  curl https://pyenv.run | bash
+fi
 sudo apt install -y fzf rbenv
 
 # Install neovim
