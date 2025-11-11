@@ -176,6 +176,7 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 . "$HOME/.cargo/env"
+export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 
 # BEGIN SCFW MANAGED BLOCK
 alias npm="scfw run npm"
