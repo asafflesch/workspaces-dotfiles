@@ -94,9 +94,6 @@ eval "$(pyenv init -)"
 # Load ruby shims
 eval "$(rbenv init -)"
 
-# Prefer GNU binaries to Macintosh binaries.
-export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
-
 # Add datadog devtools binaries to the PATH
 export PATH="$HOME/dd/devtools/bin:$PATH"
 
