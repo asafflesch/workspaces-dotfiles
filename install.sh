@@ -26,7 +26,7 @@ while read df; do
   ln -sf "$df" "$link"
 done
 
-ln -sf $HOME/repo-nvim/dd-source/.nvim.lua $HOME/dd/dd-source/.nvim.lua
+ln -sf $HOME/dotfiles/repo-nvim/dd-source/.nvim.lua $HOME/dd/dd-source/.nvim.lua
 
 wget -P ~/.local/share/fonts https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/JetBrainsMono.zip \
   && cd ~/.local/share/fonts \
