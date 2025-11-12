@@ -131,7 +131,8 @@ compinit
 compdef _bazel bzl
 
 # Set up fzf key bindings and fuzzy completion
-source <(fzf --zsh)
+source /usr/share/doc/fzf/examples/key-bindings.zsh
+source /usr/share/doc/fzf/examples/completion.zsh
 source <(kubectl completion zsh)
 source ~/.kubectl_fzf.plugin.zsh
 
