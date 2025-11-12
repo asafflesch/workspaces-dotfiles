@@ -1,0 +1,4 @@
+- Use "bzl" instead of "bazel" for all commands that need bazel
+- Whenever creating a branch, prefix with "asaf.flescher/"
+- Unless the change you're being asked to make is explicitly about adding tests, don't mention test coverage in commit messages or PR descriptions
+- Never do "git add .". Always add files explicitly to a commit
