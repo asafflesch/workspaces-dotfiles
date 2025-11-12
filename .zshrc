@@ -122,8 +122,6 @@ export GO111MODULE=auto
 export GOPROXY=https://depot-read-api-go.us1.ddbuild.io/magicmirror/magicmirror/@current/,https://depot-read-api-go.us1.ddbuild.io/magicmirror/testing/@current/,binaries.ddbuild.io,https://proxy.golang.org,direct
 export GONOSUMDB=github.com/DataDog,go.ddbuild.io
 # END ANSIBLE MANAGED BLOCK
-export GITLAB_TOKEN=$(security find-generic-password -a ${USER} -s gitlab_token -w)
-fpath+=(/opt/homebrew/share/zsh/site-functions)
 
 # loads all directories with completion scripts from $FPATH
 autoload -Uz compinit 
